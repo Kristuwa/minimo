@@ -162,6 +162,12 @@ img {
 }
 
 /* ----------------------HERO------------------ */
+@media (max-width: 1199px) {
+  .hero .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
 /* ----------------------ABOUT------------------ */
 
