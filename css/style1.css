@@ -444,6 +444,7 @@ img {
   padding-bottom: 27px;
   border: 1px solid #c8c8c8;
   border-radius: 5px;
+  resize: none;
 
   font-size: 14px;
   font-family: "Ubuntu", sans-serif;
