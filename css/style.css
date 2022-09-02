@@ -58,8 +58,8 @@ img {
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding-left: 69px;
-    padding-right: 69px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
@@ -159,6 +159,11 @@ img {
   .nav__item + .nav__item {
     margin-left: 120px;
   }
+
+  .header .container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
 
 /* ----------------------HERO------------------ */
@@ -166,6 +171,13 @@ img {
   .hero .container {
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .container {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
@@ -485,8 +497,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer {
-    padding-left: 150px;
+  .footer .container {
     padding-right: 70px;
   }
 }
