@@ -374,7 +374,7 @@ button {
   margin-right: auto;
 }
 
-.comments__item + .comments__item {
+.comments__item {
   margin-top: 57px;
 }
 
@@ -488,6 +488,10 @@ button {
 
 .socpublic__link--brown {
   color: #c8c8c8;
+}
+
+.socpublic__link--active {
+  color: var(--primary-text-color);
 }
 
 .socpublic__link--brown:hover,
