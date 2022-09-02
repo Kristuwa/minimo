@@ -3,9 +3,9 @@
   --secondary-text-color: #b4ad9e;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f0f0f0;
-  --gallery-bg-color: #f5f5f5;
   --title-text-color: #333333;
   --logo-color: #000000;
+  --gallery-bg-color: #f5f5f5;
 
   --accent-color: #000000;
 
@@ -48,12 +48,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (min-width: 320px) {
-  .container {
-    width: 320px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -166,6 +160,11 @@ img {
   .nav__item + .nav__item {
     margin-left: 120px;
   }
+
+  .header .container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
 
 /* ----------------------HERO------------------ */
@@ -178,8 +177,8 @@ img {
 
 @media (min-width: 1200px) {
   .hero .container {
-    padding-left: 69px;
-    padding-right: 69px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
@@ -542,8 +541,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer {
-    padding-left: 150px;
+  .footer .container {
     padding-right: 70px;
   }
 }
