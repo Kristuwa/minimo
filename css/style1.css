@@ -50,6 +50,12 @@ img {
   margin-right: auto;
 }
 
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 768px;
@@ -59,8 +65,8 @@ img {
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding-left: 69px;
-    padding-right: 69px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
@@ -167,6 +173,13 @@ img {
   .hero .container {
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .container {
+    padding-left: 69px;
+    padding-right: 69px;
   }
 }
 
